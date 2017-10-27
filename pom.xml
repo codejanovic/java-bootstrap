@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>io.github.codejanovic</groupId>
+    <artifactId>java-bootstrap-archetype</artifactId>
+    <version>0.1.0</version>
+    <packaging>maven-archetype</packaging>
+
+    <name>java-bootstrap-archetype</name>
+
+    <build>
+        <extensions>
+            <extension>
+                <groupId>org.apache.maven.archetype</groupId>
+                <artifactId>archetype-packaging</artifactId>
+                <version>3.0.1</version>
+            </extension>
+        </extensions>
+
+        <pluginManagement>
+            <plugins>
+                <plugin>
+                    <artifactId>maven-archetype-plugin</artifactId>
+                    <version>3.0.1</version>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-resources-plugin</artifactId>
+                    <version>3.0.2</version>
+                    <configuration>
+                        <addDefaultExcludes>false</addDefaultExcludes>
+                    </configuration>
+                </plugin>
+            </plugins>
+        </pluginManagement>
+    </build>
+
+    <description>collection of predefined predicates for all kind of types</description>
+
+    <url>https://github.com/codejanovic/java-bootstrap-archetype</url>
+
+    <developers>
+        <developer>
+            <id>codejanovic</id>
+            <name>Aleksandar Damjanovic</name>
+            <email>codejanovic@gmail.com</email>
+            <roles>
+                <role>Project-Administrator</role>
+                <role>Developer</role>
+            </roles>
+        </developer>
+    </developers>
+
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>https://opensource.org/licenses/MIT</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+
+    <scm>
+        <connection>scm:git:git://github.com/codejanovic/java-bootstrap-archetype.git</connection>
+        <developerConnection>scm:git:git@github.com:codejanovic/java-bootstrap-archetype.git</developerConnection>
+        <url>https://github.com/codejanovic/java-bootstrap-archetype.git</url>
+    </scm>
+</project>
